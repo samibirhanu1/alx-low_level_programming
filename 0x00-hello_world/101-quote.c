@@ -1,6 +1,6 @@
 #include <unistd.h>
 #include <string.h>
-/*
+/**
  * main - description is print without using prinrf and puts
  *
  * Return: 1
