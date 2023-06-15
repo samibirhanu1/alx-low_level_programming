@@ -1,10 +1,14 @@
-#include <stdio.h>
-/**
- * main - 101-quote.c print with out using puts printf
- * Return: 0
+#include <unistd.h>
+#include <string.h>
+/*
+ * main - description is print without using prinrf and puts
+ *
+ * Return: 1
  */
 int main(void)
 {
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	const char
+		message[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	write(2, message, strlen(message));
 	return (1);
 }
