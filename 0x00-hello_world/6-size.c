@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ * main - 6-size.c  print the size of data types
+ * Return: 0
+ */
 int main(void)
 {
 	printf("Size of a char: %d byte(s)\n", (int) sizeof(char));
